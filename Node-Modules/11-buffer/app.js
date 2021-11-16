@@ -11,7 +11,7 @@ console.log(buf.toString());
 
 // create
 const buf2 = Buffer.alloc(2);
-const buf3 = Buffer.allocUnsafe(2); // fast
+const buf3 = Buffer.allocUnsafe(2); // fast 초기화하지 않음
 buf2[0] = 72;
 buf2[1] = 105;
 buf2.copy(buf3);

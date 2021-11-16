@@ -25,6 +25,7 @@ for (let i = 0; i < 10; i++) {
 console.timeEnd('for loop');
 
 // counting
+//함수가 몇 번 호출되었는지 확인 할 수 있음
 function a() {
   console.count('a function');
 }
@@ -41,6 +42,6 @@ function f2() {
 }
 function f3() {
   console.log('f3');
-  console.trace();
+  console.trace(); //어디서 함수를 호출했는지 궁금할때 사용할 수 있음
 }
 f1();

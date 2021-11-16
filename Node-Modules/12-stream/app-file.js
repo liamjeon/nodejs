@@ -11,3 +11,4 @@ fs.readFile('./file.txt', (_, data) => {
   console.log(diff);
   console.log(`Consumed Memory: ${consumed}MB`);
 });
+ 

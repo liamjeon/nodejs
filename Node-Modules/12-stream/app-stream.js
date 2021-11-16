@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const readStream = fs.createReadStream('./file.txt', {
-  //   highWaterMark: 8, // 64 kbytes
+  //   highWaterMark: 8, // 64 kbytes : default
   //   encoding: 'utf-8',
 });
 
